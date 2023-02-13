@@ -1,0 +1,13 @@
+.sobre-mi{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.sobre-mi__descripcion{
+    margin-top: 50px;
+    font-size: 1.5rem;
+    text-align: center;
+
+}

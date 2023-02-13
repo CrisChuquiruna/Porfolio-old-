@@ -1,0 +1,48 @@
+a:link, a:visited,  a:hover, a:active
+{
+    color: var(--background-light);
+    text-decoration: none;
+}
+
+.head {
+    background: var(--background-semidark);
+    
+    width: 100%;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+
+    border-bottom: 1px solid var(--background-lightgreen);
+
+}
+
+.head__logo {
+    margin-bottom: 1rem;
+}
+
+.head__navegacion {
+    text-align: center;
+    margin-left: 50%;
+}
+
+.head__item {
+    font-size: 1.1rem;
+
+    display: inline-block;
+
+    margin-right: .7rem;
+    margin-bottom: .7rem;
+    margin-left: .7rem;
+
+    transition: 1s;
+}
+
+.head__item:hover{
+    font-size: 1.5rem;
+}

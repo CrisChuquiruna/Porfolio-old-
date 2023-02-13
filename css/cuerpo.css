@@ -1,0 +1,27 @@
+:root{
+    --background-dark: #000000;
+    --background-semidark: #141719;
+    --background-green: #779d78;
+    --background-lightgreen: #bdc9a6;
+    --background-light: #e7e7d1;
+    
+}
+
+body{
+    background: var(--background-semidark);
+    color: var(--background-light);
+}
+
+.container{
+    margin-top: 18rem;   
+    margin-bottom: 3rem; 
+
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+.subtitulo{
+    font-size: 4rem;
+    text-align: center;
+  
+}

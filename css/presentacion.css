@@ -1,0 +1,44 @@
+.presentacion{
+    display: flex;
+    margin-top: 0;   
+    margin-bottom: 0; 
+
+}
+
+.foto_contenedor{
+    height: 18rem;
+    width: 18rem;
+
+    margin-left: 15%;
+    margin-right: 4rem;
+    margin-top: 5rem;
+}
+.presentacion__foto{
+    display: inline-block;
+    width: 18rem;
+    height: 18rem; 
+
+    background-image: url(/img/Foto-mia.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 50%;
+    border: 2px solid var(--background-green);
+}
+.presentacion__texto{
+    width: 55%;
+     /* Control de la altura con base en el texto del div*/
+    height: auto;
+    word-wrap: break-word;
+}
+
+.presentacion__titulo{    
+    margin-top: 4rem ;
+    font-size: 7rem;
+}
+
+.presentacion__subtitulo{
+    margin-left: 1rem;
+    font-size: 2.5rem;    
+}

@@ -32,7 +32,7 @@
 .formacion__card__img1{
     grid-area: card-imagen;
     background: var(--background-light);
-    background-image: url(/assets/Alura.webp);
+    background-image: url(/assets/logo-otto-krause.svg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;

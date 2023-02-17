@@ -48,7 +48,7 @@
 .formacion__card__img2{
     grid-area: card-imagen;
     background: var(--background-light);
-    background-image: url(/assets/Alura.webp);
+    background-image: url(/assets/alura.webp);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -64,7 +64,7 @@
 .formacion__card__img3{
     grid-area: card-imagen;
     background: var(--background-light);
-    background-image: url(/assets/Udemy_logo.svg);
+    background-image: url(/assets/udemy_logo.svg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;

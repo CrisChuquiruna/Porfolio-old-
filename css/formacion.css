@@ -48,7 +48,7 @@
 .formacion__card__img2{
     grid-area: card-imagen;
     background: var(--background-light);
-    background-image: url(../assets/alura.webp);
+    background-image: url(../assets/Alura.webp);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;

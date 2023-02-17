@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/presentacion.css">
     <link rel="stylesheet" href="css/sobre-mi.css">
     <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/formacion.css">
+    <link rel="stylesheet" href="css/proyectos.css">
     <title>Cristian Chuquiruna - Portfolio</title>
 </head>
 <body>
@@ -49,25 +51,25 @@
         <h2 class="skills__subtitulo subtitulo">Skills</h2>
         <section class="skills__contenido">
             <div class="skills__card">
-                <img class="skills__card__imagen" src="img/css-logo.svg" alt="Logo de CSS">
+                <img class="skills__card__imagen" src="assets/css-logo.svg" alt="Logo de CSS">
                 <div class="skills_card__header">
                     <h5 class="skills__card__titulo">CSS</h5>
                 </div>
             </div>
             <div class="skills__card">
-                <img class="skills__card__imagen" src="img/html5-logo.svg" alt="Logo de HTML 5">
+                <img class="skills__card__imagen" src="assets/html5-logo.svg" alt="Logo de HTML 5">
                 <div class="skills_card__header">
                     <h5 class="skills__card__titulo">HTML 5</h5>
                 </div>
             </div>
             <div class="skills__card">
-                <img class="skills__card__imagen" src="img/javascript-logo.svg" alt="Logo de Javascript">
+                <img class="skills__card__imagen" src="assets/javascript-logo.svg" alt="Logo de Javascript">
                 <div class="skills_card__header">
                     <h5 class="skills__card__titulo">Javascript</h5>
                 </div>
             </div>
             <div class="skills__card">
-                <img class="skills__card__imagen" src="img/python-logo.svg" alt="Logo de Javascript">
+                <img class="skills__card__imagen" src="assets/python-logo.svg" alt="Logo de Javascript">
                 <div class="skills_card__header">
                     <h5 class="skills__card__titulo">Python</h5>
                 </div>
@@ -77,13 +79,51 @@
 
     <section class="formacion container">
         <h2 class="subtitulo">Formación</h2>
+        <div class="formacion__info">
+            <div class="formacion__card">
+                <div class="formacion__card__img1"></div>
+                <h5 class="formacion__card__titulo">Tecnico en computación</h5> 
+                <h5 class="formacion__card__subtitulo">Diciembre 2018</h5>               
+            </div>
+            <div class="formacion__card">
+                <div class="formacion__card__img2"></div>
+                <h5 class="formacion__card__titulo">Desarrollador Full-Stack</h5>
+                <h5 class="formacion__card__subtitulo">Febrero 2023</h5>
+            </div>
+            <div class="formacion__card">
+                <div class="formacion__card__img3"></div>
+                <h5 class="formacion__card__titulo">Practicando Python</h5>
+                <h5 class="formacion__card__subtitulo">Enero 2022</h5>
+            </div>
+            <div class="formacion__card">
+                <div class="formacion__card__img3"></div>
+                <h5 class="formacion__card__titulo">Universidad Python</h5>
+                <h5 class="formacion__card__subtitulo">Marzo 2022</h5>
+            </div>
+        </div>
     </section>
 
-    <section class="proyectos">
+    <section class="proyectos container">
         <h2 class="subtitulo">Proyectos</h2>
+        <div class="proyectos__info">
+            <div class="proyectos__card">             
+                <section class="proyectos__card__image">  <video class="video" src="assets/video/ahorcado.webm" autoplay="true" muted="true" loop="true"></video></section>
+                <div class="proyectos__card__descripcion">
+                    <h5 class="proyectos__title">Juego del Ahorcado</h5>
+                    <p class="proyectos__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sint tempora ab iure consectetur optio consequatur! Consectetur ex illo repudiandae unde consequuntur autem, nulla doloribus! Nulla nam eius odit eaque.</p>
+                </div>                
+            </div>
+            <div class="proyectos__card">             
+                <div class="proyectos__card__image">  <video class="video" src="assets/video/encriptador.webm" autoplay="true" muted="true" loop="true"></video></div>
+                <div class="proyectos__card__descripcion">
+                    <h5 class="proyectos__title">Encriptador</h5>
+                    <p class="proyectos__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sint tempora ab iure consectetur optio consequatur! Consectetur ex illo repudiandae unde consequuntur autem, nulla doloribus! Nulla nam eius odit eaque.</p>
+                </div>                
+            </div>
+        </div>
     </section>
 
-    <section class="contacto">
+    <section class="contacto container">
         <h2 class="subtitulo">Contacto</h2>
     </section>
 </body>

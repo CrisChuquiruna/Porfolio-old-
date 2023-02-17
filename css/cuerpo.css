@@ -13,15 +13,19 @@ body{
 }
 
 .container{
-    margin-top: 18rem;   
+    margin-top: 10rem;   
     margin-bottom: 3rem; 
 
     padding-right: 6%;
     padding-left: 6%;
 }
+.container:nth-child(3){    
+    margin-top: 18rem; 
+}
 
 .subtitulo{
     font-size: 4rem;
     text-align: center;
+    margin-bottom: 100px;
   
 }

@@ -1,0 +1,96 @@
+
+.formacion__info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5rem 0rem;    
+}
+
+.formacion__card{
+    align-items: flex-end;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 70px auto;
+    
+    grid-template-areas: 
+        "card-imagen"
+        "card-header"
+        "card-subtitulo";
+    margin-right: 1rem;
+    
+    transition: 0.3s;
+    padding-left: 3rem;
+}
+
+.formacion__card:hover{
+    transform: scale(1.15);
+    border-color: aqua;
+
+
+}
+
+.formacion__card__img1{
+    grid-area: card-imagen;
+    background: var(--background-light);
+    background-image: url(/assets/Alura.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    justify-self: center;
+
+    width: 200px;
+    height: 150px;
+    
+    border-radius: 5px;
+}
+
+.formacion__card__img2{
+    grid-area: card-imagen;
+    background: var(--background-light);
+    background-image: url(/assets/Alura.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    justify-self: center;
+
+    width: 200px;
+    height: 150px;
+    
+    border-radius: 5px;
+}
+
+.formacion__card__img3{
+    grid-area: card-imagen;
+    background: var(--background-light);
+    background-image: url(/assets/Udemy_logo.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    justify-self: center;
+
+    width: 200px;
+    height: 150px;
+    
+    border-radius: 5px;
+}
+
+.formacion__card__titulo{
+    
+    grid-area: card-header;
+    margin-top: 10px;
+    color: var(--background-light);
+    text-align: center;
+    font-size: 1.35rem;
+}
+
+.formacion__card__subtitulo{
+    
+    grid-area: card-subtitulo;
+    margin-top: 5px;
+    color: var(--background-light);
+    text-align: center;
+    font-size: 1.2rem;
+}

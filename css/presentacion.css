@@ -18,7 +18,7 @@
     width: 18rem;
     height: 18rem; 
 
-    background-image: url(../assets/foto-mia.jpg);
+    background-image: url(./assets/foto-mia.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

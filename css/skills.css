@@ -44,3 +44,12 @@
     text-align: center;
     font-size: 1.35rem;
 }
+
+@media screen and (max-width: 800px) {
+    .formacion__info{        
+       grid-template-columns: repeat(1, 1fr);
+    }
+    .formacion__card{
+       padding: 0;
+    }
+}

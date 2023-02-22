@@ -31,7 +31,7 @@
 }
 
 .proyectos__card__descripcion{
-    background-color:#e7e7d1ad;
+    background-color:var(--background-light);
     height:18em;
     width:100%;
     transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -73,4 +73,13 @@
     top: 0;
     height: 100%;
     z-index: -1;
+}
+
+@media screen and (max-width: 800px) {
+    .proyectos__card{
+        width: 100%;
+    }
+    .proyectos__card__image{
+        width: 100%;
+    }
 }

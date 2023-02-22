@@ -10,6 +10,7 @@
 body{
     background: var(--background-semidark);
     color: var(--background-light);
+    justify-content: center;
 }
 
 .container{
@@ -27,5 +28,5 @@ body{
     font-size: 4rem;
     text-align: center;
     margin-bottom: 100px;
-  
+    width: 100%;
 }

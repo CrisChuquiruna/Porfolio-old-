@@ -1,23 +1,25 @@
 
-.formacion__info{
+.formacion{
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    padding: 5rem 0rem;    
+    justify-content: center;
 }
 
-.formacion__card{
-    align-items: flex-end;
+.formacion__info{
     display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 70px auto;
-    
-    grid-template-areas: 
-        "card-imagen"
-        "card-header"
-        "card-subtitulo";
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+
+    width: 60%;
+}
+
+.formacion__card{   
+    display: flex;
+    flex-wrap: wrap;
+
     margin-right: 1rem;
-    
+    justify-content: center;
     transition: 0.3s;
     padding-left: 3rem;
 }
@@ -30,7 +32,7 @@
 }
 
 .formacion__card__img1{
-    grid-area: card-imagen;
+    
     background: var(--background-semidark);
     background-image: url(../assets/logo-otto-krause.svg);
     background-position: center center;
@@ -41,12 +43,12 @@
 
     width: 200px;
     height: 150px;
-    
-    border-radius: 5px;
+    border: var(--background-light);
+    border-style: solid;
+    border-radius: 10px;
 }
 
 .formacion__card__img2{
-    grid-area: card-imagen;
     background: var(--background-light);
     background-image: url(../assets/Alura.webp);
     background-position: center center;
@@ -62,7 +64,6 @@
 }
 
 .formacion__card__img3{
-    grid-area: card-imagen;
     background: var(--background-light);
     background-image: url(../assets/udemy_logo.svg);
     background-position: center center;
@@ -78,8 +79,7 @@
 }
 
 .formacion__card__titulo{
-    
-    grid-area: card-header;
+    width: 100%;
     margin-top: 10px;
     color: var(--background-light);
     text-align: center;
@@ -87,10 +87,18 @@
 }
 
 .formacion__card__subtitulo{
-    
-    grid-area: card-subtitulo;
+    width: 100%;
     margin-top: 5px;
     color: var(--background-light);
     text-align: center;
     font-size: 1.2rem;
+}
+
+@media screen and (max-width: 800px) {
+ .formacion__info{        
+    grid-template-columns: repeat(1, 1fr);
+ }
+ .formacion__card{
+    padding: 0;
+ }
 }

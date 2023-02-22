@@ -46,3 +46,9 @@ a:link, a:visited,  a:hover, a:active
 .head__item:hover{
     transform: scale(1.15);
 }
+
+@media screen and (max-width: 800px) {
+    .head{
+        display: none;
+    }
+  }

@@ -42,3 +42,19 @@
     margin-left: 1rem;
     font-size: 2.5rem;    
 }
+
+@media screen and (max-width: 800px) {
+    .foto_contenedor{
+        display: none;
+    }
+    .presentacion__texto{
+        width: 100%;        
+    }
+    .presentacion__titulo{
+        font-size: 4rem;
+    }
+    .presentacion__subtitulo{
+        font-size: 2rem;
+        font-weight:lighter;
+    }
+  }

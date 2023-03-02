@@ -52,7 +52,8 @@
     margin-top: 2em;
     color: var(--background-semidark);
     text-align: center;
-    font-size: 1.2rem; 
+    font-weight: 400;
+    font-size: 1.4rem; 
 }
 
 .proyectos__card:hover .proyectos__card__descripcion
